@@ -7,7 +7,7 @@ This project is a collection of smart contracts that are used by <https://alice.
 Smart contracts implement a Pay for success donation model. After a donor sends money to the campaign, a corresponding amount of Alice Tokens are being generated and credited to the Charity contract. Tokens are held in an escrow and are released only if a dedicated Validator confirms that the expected outcome has been achieved. Tokens are moved to the Beneficiary account after the validation is performed. Any outstanding tokens may be returned to donors and reused for future donations.
 
 ### Installation
-This project requires [node-js(https://github.com/nodejs/node)] runtime and uses [truffle (https://github.com/trufflesuite/truffle)] Ethereum smart contracts development framework. In order to run it, install truffle first:
+This project requires [node-js](https://github.com/nodejs/node) runtime and uses [truffle](https://github.com/trufflesuite/truffle) Ethereum smart contracts development framework. In order to run it, install truffle first:
 
     npm install -g truffle
 
@@ -26,7 +26,7 @@ Connection to blockchain node is defined in truffle.js:
         }
     }
 
-We recommend using popular Ethereum test client [(testrpc)https://github.com/ethereumjs/testrpc] as a default node:
+We recommend using popular Ethereum test client [testrpc](https://github.com/ethereumjs/testrpc) as a default node:
 
     npm install -g ethereumjs-testrpc
 
@@ -36,7 +36,7 @@ To run all of the smart contract tests use following truffle command in your con
 
     truffle test --network dev
 
-If you are using testrpc client remember to start it with sufficent number of test accounts:
+If you are using testrpc client remember to start it with sufficient number of test accounts:
 
     testrpc -a 100
 
@@ -51,7 +51,7 @@ We created a demo dApp so you can interact and test smart contract in a visual e
     truffle serve
 
 This demo dApp should be available at: http://localhost:8080/ a look like that:
-![screenshot(https://s3.eu-west-2.amazonaws.com/alice-res/alice-dApp.png)]
+![screenshot](https://s3.eu-west-2.amazonaws.com/alice-res/alice-dApp.png)
 
 ## Contributions
 
